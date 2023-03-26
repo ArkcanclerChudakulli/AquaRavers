@@ -1,0 +1,36 @@
+.action_cursor{
+	cursor: pointer;
+}
+
+.font_50{
+	font-size: 40px;
+}
+
+.font_30{
+	font-size: 30px;
+}
+
+#count{
+	font-size: 400px;
+}
+
+#title{
+	font-size: 150px;
+}
+
+.red_gradient{
+  background-image: linear-gradient(to left, #9D0000, #9D000a);
+  text-align: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.osobo {
+  text-align: center;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #00c2cb);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
