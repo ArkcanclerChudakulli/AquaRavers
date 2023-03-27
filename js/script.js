@@ -5,26 +5,26 @@ async function load(){
 	$('#vorobey').attr("onclick", "#");
 	let audio = new Audio('audio/together.mp3');
 	audio.play();
-	await sleep(1000);
+	await sleep(3000);
 	$('#count').show();
-	for(let i = 2; i >= 0; i--){
-		await sleep(1000);
+	for(let i = 3; i >= 1; i--){
 		$('#count').html(i);
+		await sleep(1500);
 	}
 	$('#count').hide();
 	$('#title').html('Наша команда');
 	$('#title').show();
-	await sleep(1000);
+	await sleep(3000);
 	$('#title').hide();
 	$('#1').show();
 	$('#award_text').html(crue_texts[0]);
 	$('#award_text').show();
-	await sleep(2000);
+	await sleep(5000);
 	for(index = 1; index < crue_texts.length;){
 		$('#' + index).hide();
 		$('#' + ++index).show();
 		$('#award_text').html(crue_texts[index-1]);
-		await sleep(2000);
+		await sleep(3000);
 	}
 	$('#' + crue_texts.length).hide();
 	$('#award_text').html("Ура, товарищи!");
